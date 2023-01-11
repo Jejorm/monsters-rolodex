@@ -34,9 +34,11 @@ export class App extends Component {
 
             <>
 
+                <h1 className='app-title'>Monsters Rolodex</h1>
+
                 <SearchBox
                     onChangeHandler={ this.onSearchChange }
-                    className='search-monsters'
+                    className='monsters-search-box'
                     placeholder='Search Monsters'
                 />
 
